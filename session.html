@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home - ABCBio Science </title>
+    <link rel="icon" href="images/logo.png" type="images/gif" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--    font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--    MAGNIFIC POPUP-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+    <!--    google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <!--    SLICK SLIDER-->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!--    style-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <section class="section-header-top clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 col-md-7">
+                    <div class="logo">
+                        <a href="#" class="d-md-flex align-items-center">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-5 col-md-5">
+                    <div class="ht-right">
+                        <div class="ht-right-top">
+                            <a href="#"><i class="fa fa-user"></i> Registration</a>
+                            <a href="#"> <i class="fa fa-sign-in"></i> login</a>
+                        </div>
+                        <div class="ht-right-bottom">
+                            <p>Call us: +8801824775100</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="clearfix">
+        <div class="container">
+            <div class="menubar clearfix">
+                <ul class="d-none d-lg-block">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="sub-btn"><a href="javascript:void(0)">Download <i class="fa fa-angle-down"></i> </a>
+                        <div class="sub-menu">
+                            <ul>
+                                <li><a href="#">Board Questions</a></li>
+                                <li><a href="#">School Questions</a></li>
+                                <li><a href="#">Lecture Sheets</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Notices</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+
+                <div class="mobile-btn d-block d-lg-none">
+                    <div class="mobile-bars d-flex align-items-end flex-column bd-highlight" onClick="mobileFun()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <!--    MOBILE MENU-->
+    <div class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="mobile-logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="mobile-logo">
+                </a>
+                <i class="fa fa-times" onClick="mobileFun()"></i>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="">
+                    <a href="">
+                        <button class="accordion-button custom " type="button">
+                            home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="">
+                    <a href="">
+                        <button class="accordion-button custom" type="button">
+                            About Us
+                        </button>
+                    </a>
+                </h2>
+
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#one" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Downloads
+                    </button>
+                </h2>
+                <div id="one" class="accordion-collapse collapse" aria-labelledby="one" data-bs-parent="#flush-headingOne">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#">Board Questions</a></li>
+                            <li><a href="#">School Questions</a></li>
+                            <li><a href="#">Lecture Sheets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="">
+                    <a href="">
+                        <button class="accordion-button custom" type="button">
+                            Gallery
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="">
+                    <a href="">
+                        <button class="accordion-button custom" type="button">
+                            Courses
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="">
+                    <a href="">
+                        <button class="accordion-button custom" type="button">
+                            Blogs
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="">
+                    <a href="">
+                        <button class="accordion-button custom" type="button">
+                            Contact Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+        </div>
+
+    </div>
+    <!--    MOBILE MENU END-->
+
+
+        <section>
+       <div class="container">
+            <div class="row">
+            <div class="col-12">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="#">School</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Session</li>
+
+                    </ol>
+                </nav>
+            </div>
+        </div>
+       </div>
+    </section>
+
+
+    <!-- Old Question -->
+    <section class="py-5 bgc">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>Session</h2>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="school-question box">
+                        <span>2016-2027</span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="school-question box">
+                        <span>2016-2027</span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="school-question box">
+                        <span>2016-2027</span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="school-question box">
+                        <span>2016-2027</span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="school-question box">
+                        <span>2016-2027</span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="school-question box">
+                        <span>2016-2027</span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="school-question box">
+                        <span>2016-2027</span>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <a href="#" class="school-question box">
+                        <span>2016-2027</span>
+                    </a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- Old Question -->
+
+
+
+    <!--    FOOTER SECTION-->
+    <footer class="pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div class="footer-box">
+                        <div class="footer-head">
+                            <h5>ABOUT COMPANY</h5>
+                        </div>
+                        <div class="footer-content">
+                            <a href="https://ettihadsecurities.com/companyprofile">
+                                <i class="fa fa-angle-right"></i>
+                                About ESL
+                            </a>
+                            <a href="https://ettihadsecurities.com/branches">
+                                <i class="fa fa-angle-right"></i>
+                                Branch Information
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div class="footer-box">
+                        <div class="footer-head">
+                            <h5>IMPORTANT LINKS</h5>
+                        </div>
+                        <div class="footer-content">
+                            <a href="https://dsebd.org/" target="_blank">
+                                <i class="fa fa-angle-right"></i>
+                                Dhaka Stock Exchange
+                            </a>
+                            <a href="https://www.cse.com.bd/" target="_blank">
+                                <i class="fa fa-angle-right"></i>
+                                Chittagong Stock Exchange
+                            </a>
+                            <a href="https://www.bb.org.bd/en/index.php" target="_blank">
+                                <i class="fa fa-angle-right"></i>
+                                Bangladesh Bank
+                            </a>
+                            <a href="https://www.cdbl.com.bd/" target="_blank">
+                                <i class="fa fa-angle-right"></i>
+                                CDBL
+                            </a>
+                            <a href="https://www.sec.gov.bd/" target="_blank">
+                                <i class="fa fa-angle-right"></i>
+                                BSEC
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div class="footer-box">
+                        <div class="footer-head">
+                            <h5>OUR SERVICES</h5>
+                        </div>
+                        <div class="footer-content">
+                            <a href="#">
+                                <i class="fa fa-angle-right"></i>
+                                Brokerage Services
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-angle-right"></i>
+                                Custodial Services
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-angle-right"></i>
+                                DP
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-angle-right"></i>
+                                SMS
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-angle-right"></i>
+                                BEFTN
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div class="footer-box">
+                        <div class="footer-head">
+                            <h5>OUR ADDRESS</h5>
+                        </div>
+                        <div class="footer-content-address">
+                            <div class="address-box d-flex bd-highlight">
+                                <div class="address-icon flex-shrink-1 bd-highlight">
+                                    <i class="fa fa-university"></i>
+                                </div>
+
+                                <div class="address-details w-100 bd-highlight">
+                                    <span>Head Office</span>
+                                </div>
+                            </div>
+
+                            <div class="address-box d-flex bd-highlight">
+                                <div class="address-icon flex-shrink-1 bd-highlight">
+                                    <i class="fa fa-home"></i>
+                                </div>
+
+                                <div class="address-details w-100 bd-highlight">
+                                    <span>Modhumita Bhaban (7th floor) Room no-803,158-160 Motijheel C/A Dhaka-1000</span>
+                                </div>
+                            </div>
+
+                            <div class="address-box d-flex bd-highlight">
+                                <div class="address-icon flex-shrink-1 bd-highlight">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+
+                                <div class="address-details w-100 bd-highlight">
+                                    <span>+88-02-223355837</span>
+                                </div>
+                            </div>
+
+                            <div class="address-box d-flex bd-highlight">
+                                <div class="address-icon flex-shrink-1 bd-highlight">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+
+                                <div class="address-details w-100 bd-highlight">
+                                    <span class="email">ettihad2011@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER SECTION END-->
+
+    <!--    COPYRIGHT SECTION-->
+    <div class="copyright-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright-content">
+                        <p>design &amp; develop by <a href="https://www.softech.com.bd/">Softech BD</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    COPYRIGHT SECTION END-->
+
+    <div class="main-mobile" onClick="mobileFun()">
+
+    </div>
+
+
+
+
+
+
+
+    <!--    JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js " integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin=" anonymous "></script>
+    <!--    SLICK SLIDER-->
+    <script src="js/slick.min.js"></script>
+
+    <script>
+        function mobileFun() {
+            $('.mobile-menu').toggleClass('sidenav_2');
+            $('.main-mobile').toggleClass('main-mobile-add');
+        }
+
+
+        $('.autoplay').slick({
+            slidesToShow: 5,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: false,
+            arrows: true,
+            nextArrow: $('.next'),
+            prevArrow: $('.prev'),
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 350,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+
+            ]
+
+        });
+
+
+
+        $('.autoplay2').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: false,
+            arrows: true,
+            nextArrow: $('.nxt'),
+            prevArrow: $('.prv'),
+
+
+        });
+
+
+
+        //fot counter
+        $('.counter').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+
+            $({
+                countNum: $this.text()
+            }).animate({
+                    countNum: countTo
+                },
+
+                {
+                    duration: 6000,
+                    easing: 'linear',
+                    step: function() {
+                        $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function() {
+                        $this.text(this.countNum);
+                        //alert('finished');
+                    }
+
+                });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
